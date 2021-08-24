@@ -1,0 +1,56 @@
+
+/* selector{
+        property : value;
+} */
+
+
+/* univercel css */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* TAG selector */
+
+body p {
+    color: rgb(65, 55, 55);
+    font-size: 30px;
+
+}
+.para{
+    color: brown;
+}
+
+.link{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+button{
+    color: brown;
+    width: 150px;
+    height: 60px;
+}
+
+/* class selector */
+
+/* id selector */
+
+p.nara{
+    font-size: 30px;
+    color: rgb(120, 21, 163);
+}
+
+/* attribute selector */
+
+.para{
+    color: brown;
+    color: #ffff;
+    color: rgb(255,55, 0);
+    color: rgba(2552, 2555, 5555, 0.5);
+    color: hsl(108, 47%, 64%);
+}
